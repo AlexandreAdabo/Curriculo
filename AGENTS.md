@@ -9,8 +9,8 @@ Currículo de página única em HTML/CSS/JS puros, servido pelo GitHub Pages. **
 ## Regras que não se quebram
 
 1. **Sem build, sem dependências em runtime.** Não introduzir bundler, framework, jQuery, Bootstrap, Tailwind ou qualquer biblioteca. Se a solução exige `npm install`, não é a solução certa aqui.
-2. **Editar apenas três arquivos.** `index.html`, `css/resume.css` e `js/resume.js`.
-3. **Não tocar nos arquivos legados.** `scss/`, `vendor/`, `gulpfile.js`, `package.json`, `package-lock.json`, `.travis.yml`, `.browserslistrc`, `css/resume.min.css`, `js/resume.min.js` e `debug.log` são resquícios do template Start Bootstrap e estão órfãos. Não editar, não regenerar, não usar como referência de estilo. Removê-los é uma decisão do autor do repositório, não uma limpeza a ser feita de passagem.
+2. **O código da interface vive em apenas três arquivos.** `index.html`, `css/resume.css` e `js/resume.js`.
+3. **Font Awesome é um recurso estático local.** Preservar `vendor/fontawesome-free/css/all.min.css` e `vendor/fontawesome-free/webfonts/`, que são carregados diretamente pelo navegador. Não regenerar esses arquivos via npm e manter o aviso de licença no CSS.
 4. **Todo texto visível em português (pt-BR).** Nomes de classes, ids, variáveis e funções em inglês.
 5. **Conteúdo do currículo é dado, não marcação.** Experiências, projetos e competências entram em `resumeData` (`js/resume.js`), nunca como HTML escrito à mão.
 

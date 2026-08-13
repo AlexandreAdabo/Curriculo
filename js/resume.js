@@ -81,9 +81,9 @@ const resumeData = {
     }
   ],
   skills: [
-    { title: "Front-end", items: ["HTML5 semântico", "CSS3 / SCSS", "JavaScript (ES6+)", "Angular", "Responsive Design", "Acessibilidade"] },
-    { title: "Back-end & dados", items: ["Node.js", "NestJS", "APIs", "TypeORM", "Prisma", "SQL e NoSQL"] },
-    { title: "Produto & engenharia", items: ["Arquitetura mobile", "Sistemas distribuídos", "Sincronização em tempo real", "UX/UI", "Git", "Liderança técnica"] }
+    { title: "Front-end", items: ["Vue.js", "React", "Next.js", "TypeScript"] },
+    { title: "Back-end & dados", items: ["PHP", "Node.js", "Python", "Nest.js", "RabbitMQ", "SQL", "MongoDB", "Neo4J"] },
+    { title: "Cloud & ferramentas", items: ["Azure", "AWS", "Git", "Cursor", "Claude Code", "Codex", "OpenCode"] }
   ]
 };
 

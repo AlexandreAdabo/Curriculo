@@ -1,4 +1,4 @@
-# Currículo — Alexandre Adabo
+# Currículo — Alexandre Santos Adabo
 
 Currículo interativo em página única, escrito em HTML, CSS e JavaScript puros, sem framework e sem etapa de build.
 
@@ -33,10 +33,11 @@ Uma landing page que apresenta trajetória, projetos e competências sem abrir m
 ├── index.html          # estrutura da página e conteúdo estático (formação, rodapé)
 ├── css/resume.css      # design tokens, layout, componentes, responsivo e impressão
 ├── js/resume.js        # dados do currículo + renderização + interações
-└── img/                # foto de perfil
+├── img/                # foto de perfil
+└── vendor/fontawesome-free/ # ícones e webfonts locais
 ```
 
-Arquivos remanescentes do template original (`scss/`, `vendor/`, `gulpfile.js`, `package.json`, `.travis.yml`, `*.min.*`) não são usados pela página atual.
+O projeto não usa npm, Gulp, framework ou etapa de build. O Font Awesome é distribuído como recurso estático local e carregado diretamente pelo navegador.
 
 ## Rodando localmente
 
@@ -59,5 +60,3 @@ Convenções de código e checklist de revisão estão em [AGENTS.md](AGENTS.md)
 ## Licença
 
 MIT. Veja [LICENSE](LICENSE).
-
-O projeto nasceu de um fork do tema [Start Bootstrap — Resume](https://startbootstrap.com/template-overviews/resume) e foi reescrito do zero desde então.
